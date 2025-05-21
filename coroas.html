@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Coroas de Flores - Floricultura do Paulinho</title>
+  <meta name="description" content="Compre coroa de flores para velório em BH. Entrega rápida, frases personalizadas e atendimento via WhatsApp. Floricultura do Paulinho." />
+  <meta name="keywords" content="coroa de flores, coroa para velório, floricultura bh, flores BH, coroa BH, flores para enterro" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="Logo Flora.png" alt="Logo Floricultura do Paulinho" />
+    <h1>Floricultura do Paulinho - Coroa de Flores</h1>
+  </header>
+  <nav>
+    <a href="coroas.html">Coroas de Flores</a>
+    <a href="frases.html">Dicas de Frase</a>
+    <a href="contato.html">Contato / Endereço</a>
+    <a href="pagamento.html">Formas de Pagamento</a>
+    <a href="carrinho.html" class="carrinho-link">🛒</a>
+  </nav>
+  <main>
+    <h2>Coroas de Flores</h2>
+        <div class="grid">
+          <div class="product">
+            <img src="Coroa Básica.jpg" alt="Coroa Básica">
+            <p class="price">R$ 250,00</p>
+            <button onclick="selecionarCoroa('Coroa Básica - R$250,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Branca e Amarela.jpg" alt="Coroa Branca e Amarela">
+            <p class="price">R$ 300,00</p>
+            <button onclick="selecionarCoroa('Coroa Branca e Amarela - R$300,00')">Selecionar</button>
+        </div>
+          <div class="product">
+            <img src="Coroa Rosa e Branca.jpg" alt="Coroa Rosa e Branca">
+            <p class="price">R$ 350,00</p>
+            <button onclick="selecionarCoroa('Coroa Rosa e Branca - R$350,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Branca.jpg" alt="Coroa Branca">
+            <p class="price">R$ 350,00</p>
+            <button onclick="selecionarCoroa('Coroa Branca - R$350,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Branca e Azul.jpg" alt="Coroa Branca e Azul">
+            <p class="price">R$ 350,00</p>
+            <button onclick="selecionarCoroa('Coroa Branca e Azul - R$350,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Rosa e Laranja.jpg" alt="Coroa Rosa e Laranja">
+            <p class="price">R$ 350,00</p>
+            <button onclick="selecionarCoroa('Coroa Rosa e Laranja - R$350,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Cor de Rosa.jpg" alt="Coroa Cor de Rosa">
+            <p class="price">R$ 350,00</p>
+            <button onclick="selecionarCoroa('Coroa Cor de Rosa - R$350,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Arranjo de Rosas.jpg" alt="Coroa Arranjo de Rosas">
+            <p class="price">R$ 400,00</p>
+            <button onclick="selecionarCoroa('Coroa Arranjo de Rosas - R$400,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Luxo.jpg" alt="Coroa Luxo">
+            <p class="price">R$ 600,00</p>
+            <button onclick="selecionarCoroa('Coroa Luxo - R$600,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Branca Arranjo de Rosas.jpg" alt="Coroa Branca Arranjo de Rosas">
+            <p class="price">R$ 600,00</p>
+            <button onclick="selecionarCoroa('Coroa Branca Arranjo de Rosas - R$600,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Ouro.jpg" alt="Coroa Ouro">
+            <p class="price">R$ 600,00</p>
+            <button onclick="selecionarCoroa('Coroa Ouro - R$600,00')">Selecionar</button>
+          </div>
+          <div class="product">
+            <img src="Coroa Vermelha Luxo.jpg" alt="Coroa Vermelha Luxo">
+            <p class="price">R$ 750,00</p>
+            <button onclick="selecionarCoroa('Coroa Vermelha Luxo - R$750,00')">Selecionar</button>
+          </div>
+        </div>    
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function selecionarCoroa(coroa) {
+      localStorage.setItem('coroaSelecionada', coroa);
+      window.location.href = 'frases.html';
+    }
+  </script>
+  <a href="https://wa.me/5531999594237?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido!" target="_blank" id="whatsapp-botao">
+  <img src="WhatsApp.jpg" alt="WhatsApp" />
+</a>
+</body>
+</html>
